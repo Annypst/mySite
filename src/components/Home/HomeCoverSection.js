@@ -28,7 +28,8 @@ const HomeCoverSection = () => {
           className='w-full h-full object-center object-cover rounded-3xl -z-10'
           priority
         />
-         <Carousel
+        //轮播图
+         {/* <Carousel
   opts={{
     align: "start",
     loop: true,
@@ -40,7 +41,7 @@ const HomeCoverSection = () => {
     <CarouselItem>...</CarouselItem>
     <CarouselItem>...</CarouselItem>
   </CarouselContent>
-</Carousel>
+</Carousel> */}
        
         <div className='w-full lg:w-3/4 p-6 sm:p-8 md:p-12  lg:p-16 flex flex-col items-start justify-center z-0 text-light'>
             <h1 className='coverimg' style={{ fontSize: '30px' }}>杭州之行-乌镇</h1>
