@@ -28,7 +28,7 @@ const HomeCoverSection = () => {
           className='w-full h-full object-center object-cover rounded-3xl -z-10'
           priority
         />
-        //轮播图
+        {/* //轮播图 */}
          {/* <Carousel
   opts={{
     align: "start",

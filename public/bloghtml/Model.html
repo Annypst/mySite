@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文章标题</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<link type="text/css" href="./yangshi.css" rel="stylesheet">
+<style>
+    /*背景图片自定义 */
+  
+        body {
+            background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                        url("./background.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    
+</style>
+
+<body>
+
+    <div class="container">
+        <div class="main-content">
+            <!-- 左侧内容区域 -->
+            <div class="content-area">
+                <div class="blog-header">
+                    <h1 class="blog-title">文章标题</h1>
+                    <div class="blog-meta">
+                        <div class="author">
+                            <div class="author-img"></div>
+                            <span>作者</span>
+                        </div>
+                        <div class="date">
+                            <i class="far fa-calendar"></i> 日期
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="blog-content">
+                    <!-- 文章内容 -->
+                     
+
+                </div>
+
+
+                <!-- 底部区域 -->
+                <footer class="footer">
+                    <div class="container footer-content">
+
+                        <div class="container copyright">
+                            Copyright © 2026 Annypst. All Rights Reserved
+                        </div>
+                </footer>
+
+                <script>
+                    // 简单的复制按钮功能
+                    document.querySelectorAll('.copy-btn').forEach(button => {
+                        button.addEventListener('click', function () {
+                            const codeBlock = this.parentElement.nextElementSibling;
+                            const textToCopy = codeBlock.textContent;
+
+                            navigator.clipboard.writeText(textToCopy).then(() => {
+                                const originalText = this.textContent;
+                                this.textContent = '已复制';
+                                setTimeout(() => {
+                                    this.textContent = originalText;
+                                }, 2000);
+                            });
+                        });
+                    });
+
+
+                </script>
+</body>
+
+</html>

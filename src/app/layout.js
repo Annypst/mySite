@@ -1,3 +1,4 @@
+//总体布局文件
 import "./globals.css";
 import { cx } from "@/src/utils";
 import { Inter, Manrope } from "next/font/google";
@@ -25,6 +26,11 @@ export const metadata = {
     default: siteMetadata.title, // a default is required when creating a template
   },
   description: siteMetadata.description,
+  icons: {
+    icon: "/Avatar.png",
+    shortcut: "/Avatar.png",
+    apple: "/Avatar.png",
+  },
   openGraph: {
     title: siteMetadata.title,
     description: siteMetadata.description,

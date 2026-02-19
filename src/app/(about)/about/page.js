@@ -1,12 +1,13 @@
+import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 
 
 const About = () => {
   return (
-    <section className='w-full md:h-[75vh] border-b-2 border-solid border-dark dark:border-light flex flex-col md:flex-row items-center justify-center text-dark dark:text-light'>
-       关于我
-    </section>
+    <div className='m-300' >
+      test
+    </div>
   )
 }
 

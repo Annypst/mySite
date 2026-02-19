@@ -11,7 +11,10 @@
     "content": "velite --clean"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
     "@lottiefiles/dotlottie-react": "^0.12.0",
+    "@mui/material": "^7.3.8",
     "@radix-ui/react-slot": "^1.2.4",
     "@supabase/supabase-js": "^2.47.9",
     "@tailwindcss/forms": "^0.5.5",

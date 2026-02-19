@@ -1,14 +1,14 @@
 // please update required information
 //网站的元数据
 const siteMetadata = {
-    title: 'Annypst的自留地',
-    author: 'CodeBucks',
+    title: 'Annypst的秘密基地',
+    author: 'Annypst & CodeBucks',
     headerTitle: 'Next.js Blog',
     description: 'A blog created with Next.js, Tailwind.css and contentlayer.',
     language: 'zh-hans',
     theme: 'system', // system, dark or light
     siteUrl: 'https://create-blog-with-nextjs.vercel.app', // your website URL
-    siteLogo: '/logo.png',
+    siteLogo: '/Avatar.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'codebucks27@gmail.com', 
     github: 'https://github.com/Annypst',
