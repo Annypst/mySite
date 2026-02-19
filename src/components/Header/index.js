@@ -4,11 +4,11 @@
 "use client"
 import Link from "next/link";
 import Logo from "./Logo";
-import { DribbbleIcon, GithubIcon, LinkedinIcon, MoonIcon, SunIcon, TwitterIcon } from "../Icons";
+
 import siteMetadata from "@/src/utils/siteMetaData";
 import { useState } from "react";
 import Image from "next/image";
-import linkedpic from './linkedin.svg';
+
 //设置导航按钮悬停时的伪类选择器：
 const opterhover = 'hover:text-accent transition-colors duration-300 '
 const Header = () => {
@@ -62,7 +62,7 @@ transition-all ease duration-300
         {/* 桌面端的导航栏 */}
       <nav className=" w-max py-3 px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center hidden sm:flex
         fixed top-6 right-1/2 translate-x-1/2 bg-light/80 backdrop-blur-sm z-50">
-        <div class="nav">
+        <div >
           <Link href="/" className={opterhover}>&nbsp;&nbsp;主页&nbsp;&nbsp;</Link>
           <Link href="/about" className={opterhover}>&nbsp;&nbsp;关于&nbsp;&nbsp;</Link>
           <Link href="/techblog" className={opterhover}>&nbsp;&nbsp;技术类博客&nbsp;&nbsp;</Link>
