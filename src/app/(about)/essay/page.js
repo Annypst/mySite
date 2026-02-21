@@ -19,7 +19,7 @@ function CardImage({ title, description, image, badge,link }) {
       <img
         src={image || "https://avatar.vercel.sh/shadcn1"}
         alt={title || "Event cover"}
-        className="relative z-20 aspect-video w-full object-cover brightness-60 grayscale dark:brightness-40"
+        className="relative z-20 aspect-video w-full object-cover brightness-60  dark:brightness-40"
       />
       <CardHeader>
       
@@ -31,8 +31,8 @@ function CardImage({ title, description, image, badge,link }) {
         </CardDescription>
       </CardHeader>
       <CardFooter>
-        {/* link是文章链接,新窗口打开 */}
-      <a href={link||"" } target="_blank">  <Button className="w-full">阅读</Button></a>
+        {/* link是文章链接 */}
+      <a href={link||"" } >  <Button className="w-full">阅读</Button></a>
       </CardFooter>
     </Card>
   )
@@ -42,62 +42,15 @@ function CardImage({ title, description, image, badge,link }) {
 const Essay = () => {
   // 博客数据
   const blogPosts = [
-    {
-      id: 1,
-      title: "文章测试",
-      description: "详细介绍 React 18 的并发渲染、自动批处理等新特性",
-      image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe",
-      badge: "技术",
-      link: "/bloghtml/bibao.html"
-    },
-    {
-      id: 2,
-      title: "Next.js 15 入门教程",
-      description: "学习如何使用 Next.js 15 构建现代化的 React 应用",
-      image: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0",
-      badge: "教程",
-      link: ""
-    },
-    {
-      id: 3,
-      title: "TypeScript 高级类型",
-      description: "深入了解 TypeScript 的高级类型系统和实用技巧",
-      image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb",
-      badge: "技术",
-      link: ""
-    },
-    {
-      id: 4,
-      title: "Tailwind CSS 3 实战",
-      description: "使用 Tailwind CSS 3 快速构建响应式 UI",
-      image: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e",
-      badge: "教程",
-      link: ""
-    },
-    {
-      id: 5,
-      title: "前端性能优化指南",
-      description: "提升前端应用性能的实用技巧和最佳实践",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31",
-      badge: "性能",
-      link: ""
-    },
-    {
-      id: 6,
-      title: "React 状态管理方案对比",
-      description: "比较 Redux、Context API、Zustand 等状态管理方案",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
-      badge: "技术",
-      link: ""
-    },
-    {
-      id: 7,
-      title: "GraphQL 基础教程",
-      description: "学习 GraphQL 的核心概念和使用方法",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475",
-      badge: "教程",
-      link: ""
-    }
+    // {
+    //   id: 1,
+    //   title: "文章测试",
+    //   description: "详细介绍 React 18 的并发渲染、自动批处理等新特性",
+    //   image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe",
+    //   badge: "技术",
+    //   link: "/bloghtml/bibao.html"
+    // },
+   
   ];
 
   // 搜索状态

@@ -55,9 +55,17 @@ transition-all ease duration-300
         }}
 
       >
-        <Link href="/contact" className={opterhover}>博客&nbsp;</Link>
+         <div >
+          <Link href="/" className={opterhover}>&nbsp;&nbsp;主页&nbsp;&nbsp;</Link>
+          <Link href="/about" className={opterhover}>&nbsp;&nbsp;关于&nbsp;&nbsp;</Link>
+          <Link href="/techblog" className={opterhover}>&nbsp;&nbsp;博客&nbsp;&nbsp;</Link>
+          <Link href="/essay" className={opterhover}>&nbsp;&nbsp;随笔&nbsp;&nbsp;</Link>
+
+          <Link href="/mysite" className={opterhover}>&nbsp;自留地&nbsp;</Link>
+          <Link href="/download" className={opterhover}>&nbsp;下载&nbsp;</Link>
+        </div>
         <br/>
-        <h1>移动端不支持查看更多内容，请在桌面查看</h1>
+      
       </nav>
         {/* 桌面端的导航栏 */}
       <nav className=" w-max py-3 px-8 border border-solid border-dark rounded-full font-medium capitalize  items-center hidden sm:flex

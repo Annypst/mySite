@@ -14,6 +14,7 @@ const RecentPosts = ({ blogs }) => {
         </h2>
        
       </div>
+     
     </section>
   );
 };

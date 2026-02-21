@@ -18,7 +18,7 @@
 }
 
 body {
-    background-color: #f5f6f7;
+    background-color: rgba(245, 246, 247, 0.95);
     color: var(--text);
     line-height: 1.6;
 }
@@ -27,6 +27,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    opacity: 0.8;
 }
 
 /* 顶部导航栏 */
@@ -423,6 +424,7 @@ body {
     color: #aaa;
     padding: 40px 0 20px;
     margin-top: 50px;
+    opacity: 1;
 }
 
 .footer-content {
